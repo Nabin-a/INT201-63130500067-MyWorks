@@ -51,3 +51,4 @@ let Chanon = zodiacTime(1900);
 console.log(`Zodiac : ${Chanon}`);
 
 console.log("Hello World");
+console.log(x*y);
