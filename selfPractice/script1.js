@@ -1,10 +1,8 @@
-let per = {id: 1, name: 'Joe'};
-let per2 = per;
-
-doSometing(per2);
+let per1 = { id: 1, name: 'Joe' };
+let per2 = per1;
+doSomething(per2);
 
 function doSomething(p) {
-        p.name = 'Mary';
+    p.name = 'Mary';
 }
-
-console.log(per);
+console.log(per1);
