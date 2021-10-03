@@ -4,3 +4,4 @@ const greeting = 'Hey';
 // const greeting = 'Ho Ho';
 //const variables cannot be updated
 // greeting = 'Hi Hi';
+console.log(greeting);

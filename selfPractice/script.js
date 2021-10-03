@@ -10,5 +10,5 @@ function  PlayerConstructor(firstName, lastName, Sex) {
 let p1 = new Player('av','M','F');
 console.log(p1);
 
-const 
+
 

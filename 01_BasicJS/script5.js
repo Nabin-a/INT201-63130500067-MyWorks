@@ -9,7 +9,8 @@ function greeter() {
 }
 // console.log(msg); //error: msg is not defined
 console.log(greeting);
-
+greeter();
 var year = 'leap';
 if (year === 'leap') var greeting = 'Hey 366 days';
 console.log(greeting);
+

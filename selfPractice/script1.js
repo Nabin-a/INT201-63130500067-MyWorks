@@ -5,4 +5,4 @@ doSomething(per2);
 function doSomething(p) {
     p.name = 'Mary';
 }
-console.log(per1);
+console.log(per1);  
