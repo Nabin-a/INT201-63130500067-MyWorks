@@ -13,7 +13,7 @@ console.log(`#1 sum: ${sum()}`); // Returns 25
 mid = 10;
 console.log(`#2 sum: ${sum()}`); // Returns 15
 
-function getScore() {
+function getScore() { // getScore is not higher-order function
   let mid = 10;
   let final = 30;
   //yourScore is nested function example
@@ -21,7 +21,7 @@ function getScore() {
     return fname + ' scored ' + (mid + final);
   }
 
-  return yourScore();
+  return yourScore();// =! return yourScore;
 }
 
 console.log(getScore()); // Returns "Ada scored 40"
