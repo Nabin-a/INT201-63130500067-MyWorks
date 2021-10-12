@@ -13,16 +13,6 @@ let fn_cuttingPoint2 = getScoringPass([-10, -15, -53, -97, -32]);
 console.log(fn_cuttingPoint2(-30));
 
 
-// function getScore(mid, final) {
-//   function sum(x, y) {
-//     return x + y;
-//   }
-
-//   function yourScore(fn) {
-//     return fn(mid, final);
-//   }
-//   return yourScore(sum);
-// }
 
 function outer(name) {
   //higher order function
@@ -35,7 +25,7 @@ function outer(name) {
     family.unshift(newMember);
     return family;
   }
-  
+
   return inner; //return inner function
 }
 const myInner = outer('Umaporn');
