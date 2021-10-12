@@ -25,3 +25,18 @@ function getScore() { // getScore is not higher-order function
 }
 
 console.log(getScore()); // Returns "Ada scored 40"
+
+
+function getScore(mid, final) {
+  function sum(x, y) {
+    return x + y;
+  }
+
+  function yourScore(fn) {
+    return fn(mid, final);
+  }
+  return yourScore(sum);
+}
+
+let sumScore = sum(50,64);
+console.log(sumScore);;
