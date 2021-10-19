@@ -18,10 +18,13 @@ function getScore() { // getScore is not higher-order function
   let final = 30;
   //yourScore is nested function example
   function yourScore() {
+    let mid = 5;
+    final = 9;
     return fname + ' scored ' + (mid + final);
   }
 
   return yourScore();// =! return yourScore;
+  return yourScore(); //not equals to "return yourScore"
 }
 
 console.log(getScore()); // Returns "Ada scored 40"
