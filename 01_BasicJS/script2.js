@@ -28,5 +28,11 @@ console.log(`multiply result: ${multiplyResult}`);
 function average(n1, n2, fn) {
   return fn(n1, n2) / 2
 }
+
+function avarage1(n1, n2) {
+  return (n1+n2)/2
+}
 let avgResult = average(10, 20, add)
+let avgResult1 = avarage1(5,10);
 console.log(`avg result: ${avgResult}`)
+console.log(`avg result: ${avgResult1}`);

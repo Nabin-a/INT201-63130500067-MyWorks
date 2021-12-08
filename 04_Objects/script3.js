@@ -12,14 +12,14 @@ if (student == alumniStudent) {
 if (student == newStudent) {
   console.log('student equals alumni student by ==');
 }
-if (student === alumniStudent) {
-  console.log('student strictly equals to alumni student');
-  //student strictly equals to alumni student.
-}
+// if (student === alumniStudent) {
+//   console.log('student strictly equals to alumni student');
+//   //student strictly equals to alumni student.
+// }
 
-if (student === newStudent) {
-  console.log('student strictly equals to new student by ==');
-}
+// if (student === newStudent) {
+//   console.log('student strictly equals to new student by ==');
+// }
 
 /*The Object.is()method determines whether two values are the same value without type conversion  
   Both the same object means both object have same reference*/
